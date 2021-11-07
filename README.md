@@ -2,6 +2,8 @@
 
 Playground for GraalVM compilations experiments
 
+    docker run --rm -it -v $(pwd):/data alpine
+    
     / # time -v data/app-linux
     Hello World!
     Command being timed: "data/app-linux"
