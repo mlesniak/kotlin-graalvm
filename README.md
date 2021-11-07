@@ -1,5 +1,12 @@
 # Overview
 
+## Build and test
+
+Run `./showcase.sh`; docker and gradle must be installed.
+
+
+## Demo
+
 Playground for GraalVM compilations experiments
 
     docker run --rm -it -v $(pwd):/data alpine
